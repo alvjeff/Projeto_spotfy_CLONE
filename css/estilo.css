@@ -1,2 +1,12 @@
 
+/*layout*/
+body{
+    background: url(/imagens/capa.png), 
+                url(/imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);/*obs1*/
+    background-attachment: fixed;/*obs2*/
+}
 
+/*obs1 - foi feita uma combinacao de imagens e um efeito degrade.*/
+
+/*obs2 - efeito para que o background fique fixo, parado no fundo.*/
