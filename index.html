@@ -79,28 +79,28 @@
         </div><!--fim container-->
     </section><!--fim home-->
 
-    <section id="servicos">
+    <section id="servicos"> <!--inicio servicos-->
         <div class="container">
             <div class="row">
                 
                 <div class="col-md-6">
                     <div class="row albuns">
                         <div class="col-md-6">
-                            <img src="imagens/img1.jpg" alt="" class="img-fluid">
+                            <img src="imagens/img1.jpg" alt="" class="img-fluid d-none d-sm-block"><!--obs3-->
                         </div>
 
                         <div class="col-md-6">
-                            <img src="imagens/img2.jpg" alt="" class="img-fluid">
+                            <img src="imagens/img2.jpg" alt="" class="img-fluid d-none d-sm-block">
                         </div>
                     </div>
 
                     <div class="row albuns">
                         <div class="col-md-6">
-                            <img src="imagens/img3.jpg" alt="" class="img-fluid">
+                            <img src="imagens/img3.jpg" alt="" class="img-fluid d-none d-sm-block">
                         </div>
 
                         <div class="col-md-6">
-                            <img src="imagens/img4.jpg" alt="" class="img-fluid">
+                            <img src="imagens/img4.jpg" alt="" class="img-fluid d-none d-sm-block">
                         </div>
                     </div>
 
@@ -129,7 +129,42 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> <!--fim servicos-->
+
+    <section id="recursos"> <!--inicio recursos-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><!--obs4--><!--div textos-->
+
+                    <h2>Fácil</h2>
+                    <h3>Buscar</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    </p>
+
+                    <h3>NaVegar</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nesciunt accusamus.</p>
+
+                    <h3>Descobrir</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae earum, laudantium eaque iusto dolores. 
+                    </p>
+
+                </div>
+                <div class="col-md-8 rotacionar"><!--obs4--><!--div fotos-->
+
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="imagens/iphone1.png" alt="" class="img-fluid d-none d-md-block">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/iphone2.png" alt="" class="img-fluid d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--fim recursos-->
 
 
 
@@ -151,3 +186,7 @@
 <!--obs1 - este ml-auto(margin left auto) é que permitiu jogar todo o conteudo para a direita quando esta em dispositivo desktop-->
 
 <!--obs2 - d-flex tornou os elementos desta section em flex items.-->
+
+<!--obs3 - 'd-none d-sm-block' so relembrando que isso faz este elemente com esta classe sumir quando tiver no tamanho dispostivo sm. Podendo ser alterado pra outros tamanhos como o md, por exemplo.-->
+
+<!--obs4 - nesta secao a parte de texto tera 4 colunas e a parte de imagens tera 8 colunas. Lembrando que somadas as colunas tem que dar 12-->

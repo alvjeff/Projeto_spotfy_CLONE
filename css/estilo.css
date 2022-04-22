@@ -11,6 +11,8 @@ body{
 
 html, body, #home{
     height: 100%;/*obs5*/
+    overflow-x: hidden;/*obs6*/
+    overflow-y: visible;
 }
 
 /*barra de navegacao*/
@@ -77,11 +79,34 @@ nav.navbar-transparente{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+#servicos h2, h3{
+    color: #7c25f8;
+}
 
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+#recursos h3{
+    color: #9bf0e1;
+}
+#recursos h2{
+    color: white;
+}
 .albuns{
     padding: 10px 0;
-    
+
 }
+
+.rotacionar{
+    
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
 /*tipografia*/
 /*-----------------------------------------------------------------*/
 h1{
@@ -89,6 +114,16 @@ h1{
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
+}
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -138,3 +173,5 @@ h1{
 /*obs4 - esta especifidade ja vem predefinida no booststrap. Para que eu resgate isso é necessário abrir o inspecionador do código para ver o nome completo desse elemento tal como está aqui. Neste caso encontrei no inspecionador, copiei e colei neste arquivo css.*/
 
 /*obs5 - vao ocupar todo o espacamento visivel em altura.*/
+
+/*obs6 - overflow é a barra de rolagem. x é lateral e y é vertical. a opcao 'scroll' fica exibindo as barras de rolagem mesmo que nao seja necessarias*/
